@@ -3,7 +3,8 @@ import styled from 'styled-components'
 import { FormContext } from "../context/FormContext";
 import { ValidationContext } from "../context/ValidationContext";
 import IconValid from '../images/formulario/icon_valid.svg'
-import IconInvalid from '../images/formulario/icon_invalid.svg'
+import IconInvalid from '../images/formulario/icon_error.svg'
+import IconExclamation from '../images/formulario/icon_invalid.svg'
 import IconTrailing from '../images/formulario/icon_trailing.svg'
 import Tooltip from '../images/tooltip_ci.svg'
 import { validate } from 'rut.js'
@@ -237,6 +238,10 @@ const InputItem = ({ nameInput, iconInput, nameLabel, length, fieldType = 'text'
       let regex = /^[A-Za-zÁÉÍÓÚáéíóúñÑ ]+$/g;
       return regex.test(letter);
     }
+    const letterAndNumber = (ln) => {
+      let regex = /^[A-Za-z0-9\s]+$/g
+      return regex.test(ln)
+    }
 
     if (nameInput === 'rut') {
       validate(inputValue) ? (invalidSetter('rut',true,false)) : (invalidSetter('rut',false,true))
@@ -251,6 +256,10 @@ const InputItem = ({ nameInput, iconInput, nameLabel, length, fieldType = 'text'
     }
     if(nameInput === 'name' || nameInput === 'lastName'){
       onlyLetter(inputValue) && inputValue.trim() ? (setValidationData({...validationData,[nameInput]:true},invalidSetter([nameInput],true,false))): (setValidationData({...validationData,[nameInput]:false},invalidSetter([nameInput],false,true)))
+      inputValue === '' && (invalidSetter([nameInput],false,false))
+    }
+    if(nameInput === 'dispatchAddress'){
+      letterAndNumber(inputValue) && inputValue.trim() ? (setValidationData({...validationData,[nameInput]:true},invalidSetter([nameInput],true,false))): (setValidationData({...validationData,[nameInput]:false},invalidSetter([nameInput],false,true)))
       inputValue === '' && (invalidSetter([nameInput],false,false))
     }
     if (nameInput === 'phone' || nameInput === 'phoneToMigrate') {
@@ -282,7 +291,7 @@ const InputItem = ({ nameInput, iconInput, nameLabel, length, fieldType = 'text'
       />
       <label className={`${formData[nameInput] ? "input-label active" : "input-label"} ${focused && 'phonefocus'}`}>{nameLabel}</label>
       <img className={validationData[nameInput] ? "icon-valid active": "icon-valid"} src={IconValid} alt="valido"/>
-      <img className={invalidForm ? "icon-invalid active": "icon-invalid"} src={IconInvalid} alt="invalido"/>
+      <img className={invalidForm ? "icon-invalid active": "icon-invalid"} src={nameInput === 'ci' ? IconExclamation : IconInvalid} alt="invalido"/>
       {nameInput === "ci" && !invalidForm && !validationData[nameInput] && <picture className="icon-trailing active"><img src={IconTrailing} alt="trailing"/></picture>}
       <span className="example-input">{exampleInput}</span>
     </InputContainer>
