@@ -66,7 +66,7 @@ function App() {
   return (
     <FormContextProvider>
       <ValidationContextProvider>
-        <Router>
+        <Router basename="wom-venta-planes-prepago">
           <GlobalStyle/>
           <HeaderScene />
           <Header />

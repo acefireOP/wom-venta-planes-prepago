@@ -23,7 +23,7 @@ const Step2Adress = ({regionName, comunaName, addressName, addressNumName, disab
   const [loaded,setLoaded] = useState(false)
 
   useEffect(() => {
-    axios.get("/regiones-comunas-matrix2.json").then(res => {
+    axios.get("/wom-venta-planes-prepago/regiones-comunas-matrix2.json").then(res => {
       setRegionsList(res.data.regiones)
     })
     .then(()=>{
