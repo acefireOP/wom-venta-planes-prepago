@@ -229,10 +229,6 @@ const InputItem = ({ nameInput, iconInput, nameLabel, length, fieldType = 'text'
       var regex_num_celular = /^[0-9]{9}$/
       return regex_num_celular.test(nume)
     }*/
-    /*function soloNumeros(e){
-      let key = window.Event ? e.which : e.keyCode
-      return ((key >= 48 && key <= 57) || (key==8))
-    }*/
 
     const onlyLetter = (letter) => {
       let regex = /^[A-Za-zÁÉÍÓÚáéíóúñÑ ]+$/g;
@@ -258,7 +254,7 @@ const InputItem = ({ nameInput, iconInput, nameLabel, length, fieldType = 'text'
       onlyLetter(inputValue) && inputValue.trim() ? (setValidationData({...validationData,[nameInput]:true},invalidSetter([nameInput],true,false))): (setValidationData({...validationData,[nameInput]:false},invalidSetter([nameInput],false,true)))
       inputValue === '' && (invalidSetter([nameInput],false,false))
     }
-    if(nameInput === 'dispatchAddress'){
+    if(nameInput === 'dispatchAddress' || nameInput === 'dispatchAddressNum'){
       letterAndNumber(inputValue) && inputValue.trim() ? (setValidationData({...validationData,[nameInput]:true},invalidSetter([nameInput],true,false))): (setValidationData({...validationData,[nameInput]:false},invalidSetter([nameInput],false,true)))
       inputValue === '' && (invalidSetter([nameInput],false,false))
     }
@@ -271,6 +267,13 @@ const InputItem = ({ nameInput, iconInput, nameLabel, length, fieldType = 'text'
     }
     ((nameInput === 'phone' || nameInput === 'phoneToMigrate') && inputValue === '') && setFocused(false)
   }
+  /*function isNumberKey(evt){
+    let charCode = (evt.which) ? evt.which : evt.keyCode;
+    if (charCode != 46 && charCode > 31 && (charCode < 48 || charCode > 57))
+    return false;
+
+    return true;
+  }*/
   const test = ()=>{
     (nameInput === 'phone' || nameInput === 'phoneToMigrate') && setFocused(true) 
   }

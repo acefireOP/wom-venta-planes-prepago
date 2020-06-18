@@ -37,6 +37,9 @@ const PlanBox = styled.div`
       margin-bottom: 0;
     }
   }
+  @media(max-width: 350px){
+    padding: 15px 15px 15px 30px;
+  }
   &.active{
     border-color:#E92070;
     svg{
@@ -55,12 +58,26 @@ const PlanBox = styled.div`
     }
     p{
       color: #7C6C8A;
+      font-weight: 500;
       b{
         color: #574466;
+        font-weight: 500;
+        @media(max-width: 480px){
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: auto;
+          right: 15px;
+          margin: auto;
+          height: 12px;
+        }
       }
     }
   }
   svg{
+    @media(max-width: 350px){
+      width: 25px;
+    }
     path{
       fill: #7C6C8A;
     }
@@ -76,6 +93,9 @@ const PlanBox = styled.div`
     font-size:16px;
     margin: 6px;
     font-weight:700;
+    @media(max-width: 350px){
+      font-size: 15px;
+    }
   }
   p{
     text-align:center;
@@ -103,6 +123,10 @@ const PlanBox = styled.div`
       right: auto;
       margin: auto;
     }
+    @media(max-width: 350px){
+      left: 5px;
+    }
+     right: 15px;
     &.active{
       background:#E92070;
       &:after{
