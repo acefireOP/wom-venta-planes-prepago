@@ -267,10 +267,18 @@ const InputItem = ({ nameInput, iconInput, nameLabel, length, fieldType = 'text'
     }
     ((nameInput === 'phone' || nameInput === 'phoneToMigrate') && inputValue === '') && setFocused(false)
   }
-  function onlyNumbers(evt){
+  /*function onlyNumbers(evt){
     let charCode = (evt.which) ? evt.which : evt.keyCode;
     if (charCode != 46 && charCode > 31 && (charCode < 48 || charCode > 57))
     evt.preventDefault()
+  }*/
+  function onlyNumbers(event) {
+    const regex = new RegExp("^[0-9 ]+$");
+    const key = String.fromCharCode(!event.charCode ? event.which : event.charCode);
+    if (!regex.test(key)) {
+      event.preventDefault();
+      return false;
+    }
   }
   /*function lettersAndNumbers(evt){
     let charCode = (evt.which) ? evt.which : evt.keyCode;
@@ -278,8 +286,8 @@ const InputItem = ({ nameInput, iconInput, nameLabel, length, fieldType = 'text'
     evt.preventDefault()
   }*/
   function lettersAndNumbers(event){
-    var regex = new RegExp("^[a-zA-Z0-9 ]+$");
-    var key = String.fromCharCode(!event.charCode ? event.which : event.charCode);
+    const regex = new RegExp("^[a-zA-Z0-9 ]+$");
+    const key = String.fromCharCode(!event.charCode ? event.which : event.charCode);
     if (!regex.test(key)) {
       event.preventDefault();
       return false;
