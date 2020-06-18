@@ -267,13 +267,24 @@ const InputItem = ({ nameInput, iconInput, nameLabel, length, fieldType = 'text'
     }
     ((nameInput === 'phone' || nameInput === 'phoneToMigrate') && inputValue === '') && setFocused(false)
   }
-  /*function isNumberKey(evt){
+  function onlyNumbers(evt){
     let charCode = (evt.which) ? evt.which : evt.keyCode;
     if (charCode != 46 && charCode > 31 && (charCode < 48 || charCode > 57))
-    return false;
-
-    return true;
+    evt.preventDefault()
+  }
+  /*function lettersAndNumbers(evt){
+    let charCode = (evt.which) ? evt.which : evt.keyCode;
+    if ((charCode < 48) || (charCode > 57) && (charCode < 65) || (charCode > 90) && (charCode < 97) || (charCode > 122))
+    evt.preventDefault()
   }*/
+  function lettersAndNumbers(event){
+    var regex = new RegExp("^[a-zA-Z0-9 ]+$");
+    var key = String.fromCharCode(!event.charCode ? event.which : event.charCode);
+    if (!regex.test(key)) {
+      event.preventDefault();
+      return false;
+    }
+  }
   const test = ()=>{
     (nameInput === 'phone' || nameInput === 'phoneToMigrate') && setFocused(true) 
   }
@@ -285,6 +296,7 @@ const InputItem = ({ nameInput, iconInput, nameLabel, length, fieldType = 'text'
         name={nameInput}
         onBlur={blurValidation}
         onFocus={test}
+        onKeyPress={(nameInput === 'phone' ? ((event) => onlyNumbers(event)) : null) || (nameInput === 'dispatchAddressNum' ? ((event) => lettersAndNumbers(event)) : null)}
         onChange={(nameInput === 'phone' || nameInput === 'phoneToMigrate') ? e => setInputValue(e.target.value.slice(0,9)) : e => setInputValue(e.target.value)}
         value={formData[nameInput]}
         className={`${formData[nameInput] ? (disabledFields ? "input-text active disabled":"input-text active") : (disabledFields ? "input-text disabled":"input-text")} ${focused && 'phonefocus'}`} 
