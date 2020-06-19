@@ -235,7 +235,7 @@ const InputItem = ({ nameInput, iconInput, nameLabel, length, fieldType = 'text'
       return regex.test(letter);
     }
     const letterAndNumber = (ln) => {
-      let regex = /^[A-Za-z0-9\s]+$/g
+      let regex = /^[A-Za-zÁÉÍÓÚáéíóúñÑ0-9\s]+$/g
       return regex.test(ln)
     }
 
@@ -254,7 +254,7 @@ const InputItem = ({ nameInput, iconInput, nameLabel, length, fieldType = 'text'
       onlyLetter(inputValue) && inputValue.trim() ? (setValidationData({...validationData,[nameInput]:true},invalidSetter([nameInput],true,false))): (setValidationData({...validationData,[nameInput]:false},invalidSetter([nameInput],false,true)))
       inputValue === '' && (invalidSetter([nameInput],false,false))
     }
-    if(nameInput === 'dispatchAddress' || nameInput === 'dispatchAddressNum'){
+    if(nameInput === 'dispatchAddress'){
       letterAndNumber(inputValue) && inputValue.trim() ? (setValidationData({...validationData,[nameInput]:true},invalidSetter([nameInput],true,false))): (setValidationData({...validationData,[nameInput]:false},invalidSetter([nameInput],false,true)))
       inputValue === '' && (invalidSetter([nameInput],false,false))
     }
@@ -286,7 +286,7 @@ const InputItem = ({ nameInput, iconInput, nameLabel, length, fieldType = 'text'
     evt.preventDefault()
   }*/
   function lettersAndNumbers(event){
-    const regex = new RegExp("^[a-zA-Z0-9 ]+$");
+    const regex = new RegExp("^[A-Za-zÁÉÍÓÚáéíóúñÑ0-9 ]+$");
     const key = String.fromCharCode(!event.charCode ? event.which : event.charCode);
     if (!regex.test(key)) {
       event.preventDefault();
