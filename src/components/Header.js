@@ -113,7 +113,7 @@ const Header = () => {
     <HeaderWom>
       <Wrapper>
         <img className="logowom" src={LogoWom} alt="wom header"/>
-        {formData.successFlow === false && <TitleSection>Solicitud de Contratación</TitleSection>}
+        {formData.successFlow === false && <TitleSection>Solicitud de Chip Portabilidad Prepago</TitleSection>}
         {formData.successFlow === false ? 
           <Steps>
             <picture className="tracks"><img src={Track} alt="track"/><img src={Track} alt="track"/></picture>
