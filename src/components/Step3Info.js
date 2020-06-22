@@ -1,5 +1,6 @@
 import React,{ useContext } from 'react'
 import styled from 'styled-components'
+import { ValidationContext } from "../context/ValidationContext";
 import { FormContext } from "../context/FormContext";
 import {Link} from 'react-router-dom'
 import IcoEditar from '../images/ico_editar.svg'
@@ -181,6 +182,7 @@ const PlanSummary = styled.div`
 
 const Step3Info = () => {
   const { formData} = useContext(FormContext);
+  const { validationData, setValidationData } = useContext(ValidationContext);
 
   return (
     <PlanSummary>
@@ -201,7 +203,10 @@ const Step3Info = () => {
       <div className="divider-dashed mb-10"></div>
       <div className="summary-title-dispatch">
         <h2>Tipo de entrega</h2>
-        <Link to="/paso2">
+        <Link 
+          to="/paso2"
+          onClick={() => `${formData.dispatchRegion = ''},${validationData.dispatchRegion = false},${formData.dispatchComuna = ''},${validationData.dispatchComuna = false}`}
+          >
           <div className="summary-edit"><p>MODIFICAR</p> <img src={IcoEditar} alt="editar"/></div>
         </Link>
       </div>
