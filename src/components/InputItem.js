@@ -207,7 +207,7 @@ const InputItem = ({ nameInput, iconInput, nameLabel, length, fieldType = 'text'
       setInvalidForm(shown)
     )
     const ciInvalidSetter = (ci) => {
-      const re = /^[aA0-9]{3}.?\d{3}.?\d{3}$/;
+      const re = /^[A-Za-z0-9]{3}.?\d{3}.?\d{3}$/;
       /*const re = /^[0-9]{3}.?\d{3}.?\d{3}$/;*/
       /*const re = /^[0-9]{3}[.]{1}\d{3}[.]{1}\d{3}$/*/
       /*const re = /^[aA0-9]{1}[aA0-9]{8,10}/g*/
