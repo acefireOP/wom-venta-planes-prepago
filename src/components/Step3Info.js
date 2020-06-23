@@ -203,10 +203,7 @@ const Step3Info = () => {
       <div className="divider-dashed mb-10"></div>
       <div className="summary-title-dispatch">
         <h2>Tipo de entrega</h2>
-        <Link 
-          to="/paso2"
-          onClick={() => `${formData.dispatchRegion = ''},${validationData.dispatchRegion = false},${formData.dispatchComuna = ''},${validationData.dispatchComuna = false}`}
-          >
+        <Link to="/paso2">
           <div className="summary-edit"><p>MODIFICAR</p> <img src={IcoEditar} alt="editar"/></div>
         </Link>
       </div>

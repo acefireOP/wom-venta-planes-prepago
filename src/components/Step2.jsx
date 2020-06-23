@@ -113,6 +113,8 @@ const Step2 = () => {
     setFormData({...formData,successFlow:false})
     window.scrollTo(0, 0)
     ReactGA.pageview(window.location.pathname+`/?plan=${formData.selectedPlan}`);
+    setFormData({...formData,successFlow:false,dispatchRegion:'',dispatchComuna:''})
+    setValidationData({...validationData,dispatchRegion:false,dispatchComuna:false})
   },[])
 
   const populateContract = () => {
