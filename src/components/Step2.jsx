@@ -109,6 +109,8 @@ const Step2 = () => {
   const { formData, setFormData } = useContext(FormContext);
   const [ disabledFields, setDisabledFields ] = useState(false)
 
+  const { dispatchRegion, dispatchComuna } = formData;
+
   useEffect(()=>{
     setFormData({...formData,successFlow:false})
     window.scrollTo(0, 0)
