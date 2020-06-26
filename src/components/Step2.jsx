@@ -109,14 +109,15 @@ const Step2 = () => {
   const { formData, setFormData } = useContext(FormContext);
   const [ disabledFields, setDisabledFields ] = useState(false)
 
-  const { dispatchRegion, dispatchComuna } = formData;
+  
 
   useEffect(()=>{
     setFormData({...formData,successFlow:false})
     window.scrollTo(0, 0)
     ReactGA.pageview(window.location.pathname+`/?plan=${formData.selectedPlan}`);
-    setFormData({...formData,successFlow:false,dispatchRegion:'',dispatchComuna:''})
-    setValidationData({...validationData,dispatchRegion:false,dispatchComuna:false})
+    //setFormData({...formData,successFlow:false,dispatchRegion:'',dispatchComuna:''})
+    //setValidationData({...validationData,dispatchRegion:false,dispatchComuna:false})
+
   },[])
 
   const populateContract = () => {
@@ -124,6 +125,7 @@ const Step2 = () => {
     const comuna = formData.dispatchComuna
     const direccion = formData.dispatchAddress
     const direccion2 = formData.dispatchAddressNum
+
     let formValidityState = {
       contractRegion: false,
       contractComuna: false,

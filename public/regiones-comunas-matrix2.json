@@ -87,6 +87,13 @@
          "REGION":"III - REGION DE ATACAMA",
          "COMUNAS":[
             {
+               "COMUNA":"COPIAPO",
+               "DIAS_VISITA":"LU - MA - MI - JU - VI",
+               "CODIGO_POSTAL":"1530000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"3"
+            },
+            {
                "COMUNA":"ALTO DEL CARMEN",
                "CON_DESPACHO":false
             },
@@ -97,13 +104,6 @@
             {
                "COMUNA":"CHAÑARAL",
                "CON_DESPACHO":false
-            },
-            {
-               "COMUNA":"COPIAPO",
-               "DIAS_VISITA":"LU - MA - MI - JU - VI",
-               "CODIGO_POSTAL":"1530000",
-               "CON_DESPACHO":true,
-               "DIAS_DESPACHO":"3"
             },
             {
                "COMUNA":"DIEGO DE ALMAGRO",
@@ -131,6 +131,20 @@
          "REGION":"IV - REGION DE COQUIMBO",
          "COMUNAS":[
             {
+               "COMUNA":"COQUIMBO",
+               "DIAS_VISITA":"LU - MA - MI - JU - VI",
+               "CODIGO_POSTAL":"1780000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"3"
+            },
+            {
+               "COMUNA":"LA SERENA",
+               "DIAS_VISITA":"LU - MA - MI - JU - VI",
+               "CODIGO_POSTAL":"1700000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"3"
+            },
+            {
                "COMUNA":"ANDACOLLO",
                "CON_DESPACHO":false
             },
@@ -143,26 +157,12 @@
                "CON_DESPACHO":false
             },
             {
-               "COMUNA":"COQUIMBO",
-               "DIAS_VISITA":"LU - MA - MI - JU - VI",
-               "CODIGO_POSTAL":"1780000",
-               "CON_DESPACHO":true,
-               "DIAS_DESPACHO":"3"
-            },
-            {
                "COMUNA":"ILLAPEL",
                "CON_DESPACHO":false
             },
             {
                "COMUNA":"LA HIGUERA",
                "CON_DESPACHO":false
-            },
-            {
-               "COMUNA":"LA SERENA",
-               "DIAS_VISITA":"LU - MA - MI - JU - VI",
-               "CODIGO_POSTAL":"1700000",
-               "CON_DESPACHO":true,
-               "DIAS_DESPACHO":"3"
             },
             {
                "COMUNA":"LOS VILOS",
@@ -202,6 +202,83 @@
          "REGION":"V - REGION DE VALPARAISO",
          "COMUNAS":[
             {
+               "COMUNA":"CARTAGENA",
+               "DIAS_VISITA":"LU - MI - VI",
+               "CODIGO_POSTAL":"2680000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"4"
+            },
+            {
+               "COMUNA":"CONCON",
+               "DIAS_VISITA":"LU - MI - VI",
+               "CODIGO_POSTAL":"2510000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"4"
+            },
+            {
+               "COMUNA":"LLAILLAY",
+               "DIAS_VISITA":"MA - JU",
+               "CODIGO_POSTAL":"2220000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"5"
+            },
+            {
+               "COMUNA":"LOS ANDES",
+               "DIAS_VISITA":"LU - MA - MI - JU - VI",
+               "CODIGO_POSTAL":"2100000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"3"
+            },
+            {
+               "COMUNA":"QUILPUE",
+               "DIAS_VISITA":"LU - MA - MI - JU - VI SA",
+               "CODIGO_POSTAL":"2430000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"3"
+            },
+            {
+               "COMUNA":"SAN ANTONIO",
+               "DIAS_VISITA":"LU - MA - MI - JU - VI",
+               "CODIGO_POSTAL":"2660000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"3"
+            },
+            {
+               "COMUNA":"SAN FELIPE",
+               "DIAS_VISITA":"LU - MA - MI - JU - VI",
+               "CODIGO_POSTAL":"2170000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"3"
+            },
+            {
+               "COMUNA":"SANTO DOMINGO",
+               "DIAS_VISITA":"VI",
+               "CODIGO_POSTAL":"2720000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"6"
+            },
+            {
+               "COMUNA":"VALPARAISO",
+               "DIAS_VISITA":"LU - MA - MI - JU - VI - SA",
+               "CODIGO_POSTAL":"2340000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"3"
+            },
+            {
+               "COMUNA":"VILLA ALEMANA",
+               "DIAS_VISITA":"LU - MA - MI - JU - VI - SA",
+               "CODIGO_POSTAL":"6500000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"3"
+            },
+            {
+               "COMUNA":"VIÑA DEL MAR",
+               "DIAS_VISITA":"LU - MA - MI - JU - VI - SA",
+               "CODIGO_POSTAL":"2520000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"3"
+            },
+            {
                "COMUNA":"ALGARROBO",
                "CON_DESPACHO":false
             },
@@ -218,26 +295,12 @@
                "CON_DESPACHO":false
             },
             {
-               "COMUNA":"CARTAGENA",
-               "DIAS_VISITA":"LU - MI - VI",
-               "CODIGO_POSTAL":"2680000",
-               "CON_DESPACHO":true,
-               "DIAS_DESPACHO":"4"
-            },
-            {
                "COMUNA":"CASABLANCA",
                "CON_DESPACHO":false
             },
             {
                "COMUNA":"CATEMU",
                "CON_DESPACHO":false
-            },
-            {
-               "COMUNA":"CONCON",
-               "DIAS_VISITA":"LU - MI - VI",
-               "CODIGO_POSTAL":"2510000",
-               "CON_DESPACHO":true,
-               "DIAS_DESPACHO":"4"
             },
             {
                "COMUNA":"EL QUISCO",
@@ -272,20 +335,6 @@
                "CON_DESPACHO":false
             },
             {
-               "COMUNA":"LLAILLAY",
-               "DIAS_VISITA":"MA - JU",
-               "CODIGO_POSTAL":"2220000",
-               "CON_DESPACHO":true,
-               "DIAS_DESPACHO":"5"
-            },
-            {
-               "COMUNA":"LOS ANDES",
-               "DIAS_VISITA":"LU - MA - MI - JU - VI",
-               "CODIGO_POSTAL":"2100000",
-               "CON_DESPACHO":true,
-               "DIAS_DESPACHO":"3"
-            },
-            {
                "COMUNA":"NOGALES",
                "CON_DESPACHO":false
             },
@@ -318,13 +367,6 @@
                "CON_DESPACHO":false
             },
             {
-               "COMUNA":"QUILPUE",
-               "DIAS_VISITA":"LU - MA - MI - JU - VI SA",
-               "CODIGO_POSTAL":"2430000",
-               "CON_DESPACHO":true,
-               "DIAS_DESPACHO":"3"
-            },
-            {
                "COMUNA":"QUINTERO",
                "CON_DESPACHO":false
             },
@@ -333,54 +375,12 @@
                "CON_DESPACHO":false
             },
             {
-               "COMUNA":"SAN ANTONIO",
-               "DIAS_VISITA":"LU - MA - MI - JU - VI",
-               "CODIGO_POSTAL":"2660000",
-               "CON_DESPACHO":true,
-               "DIAS_DESPACHO":"3"
-            },
-            {
                "COMUNA":"SAN ESTEBAN",
                "CON_DESPACHO":false
             },
             {
-               "COMUNA":"SAN FELIPE",
-               "DIAS_VISITA":"LU - MA - MI - JU - VI",
-               "CODIGO_POSTAL":"2170000",
-               "CON_DESPACHO":true,
-               "DIAS_DESPACHO":"3"
-            },
-            {
                "COMUNA":"SANTA MARIA DE SAN FELIPE",
                "CON_DESPACHO":false
-            },
-            {
-               "COMUNA":"SANTO DOMINGO",
-               "DIAS_VISITA":"VI",
-               "CODIGO_POSTAL":"2720000",
-               "CON_DESPACHO":true,
-               "DIAS_DESPACHO":"6"
-            },
-            {
-               "COMUNA":"VALPARAISO",
-               "DIAS_VISITA":"LU - MA - MI - JU - VI - SA",
-               "CODIGO_POSTAL":"2340000",
-               "CON_DESPACHO":true,
-               "DIAS_DESPACHO":"3"
-            },
-            {
-               "COMUNA":"VILLA ALEMANA",
-               "DIAS_VISITA":"LU - MA - MI - JU - VI - SA",
-               "CODIGO_POSTAL":"6500000",
-               "CON_DESPACHO":true,
-               "DIAS_DESPACHO":"3"
-            },
-            {
-               "COMUNA":"VIÑA DEL MAR",
-               "DIAS_VISITA":"LU - MA - MI - JU - VI - SA",
-               "CODIGO_POSTAL":"2520000",
-               "CON_DESPACHO":true,
-               "DIAS_DESPACHO":"3"
             },
             {
                "COMUNA":"ZAPALLAR",
@@ -391,6 +391,48 @@
       {
          "REGION":"VI - REGION DEL LIBERTADOR GRAL. BERNARDO O’HIGGINS",
          "COMUNAS":[
+            {
+               "COMUNA":"GRANEROS",
+               "DIAS_VISITA":"JU",
+               "CODIGO_POSTAL":"2880000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"6"
+            },
+            {
+               "COMUNA":"MACHALI",
+               "DIAS_VISITA":"MA - SA",
+               "CODIGO_POSTAL":"2910000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"5"
+            },
+            {
+               "COMUNA":"RENGO",
+               "DIAS_VISITA":"LU - MI - VI",
+               "CODIGO_POSTAL":"2940000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"4"
+            },
+            {
+               "COMUNA":"REQUINOA",
+               "DIAS_VISITA":"MA",
+               "CODIGO_POSTAL":"2930000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"6"
+            },
+            {
+               "COMUNA":"SAN FERNANDO",
+               "DIAS_VISITA":"LU - MA - MI - JU - VI",
+               "CODIGO_POSTAL":"3070000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"3"
+            },
+            {
+               "COMUNA":"SAN VICENTE DE TAGUA TAGUA",
+               "DIAS_VISITA":"LU - MI  - VI",
+               "CODIGO_POSTAL":"2970000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"4"
+            },
             {
                "COMUNA":"CHIMBARONGO",
                "CON_DESPACHO":false
@@ -416,13 +458,6 @@
                "CON_DESPACHO":false
             },
             {
-               "COMUNA":"GRANEROS",
-               "DIAS_VISITA":"JU",
-               "CODIGO_POSTAL":"2880000",
-               "CON_DESPACHO":true,
-               "DIAS_DESPACHO":"6"
-            },
-            {
                "COMUNA":"LA ESTRELLA",
                "CON_DESPACHO":false
             },
@@ -437,13 +472,6 @@
             {
                "COMUNA":"LOLOL",
                "CON_DESPACHO":false
-            },
-            {
-               "COMUNA":"MACHALI",
-               "DIAS_VISITA":"MA - SA",
-               "CODIGO_POSTAL":"2910000",
-               "CON_DESPACHO":true,
-               "DIAS_DESPACHO":"5"
             },
             {
                "COMUNA":"MALLOA",
@@ -510,34 +538,6 @@
                "CON_DESPACHO":false
             },
             {
-               "COMUNA":"RENGO",
-               "DIAS_VISITA":"LU - MI - VI",
-               "CODIGO_POSTAL":"2940000",
-               "CON_DESPACHO":true,
-               "DIAS_DESPACHO":"4"
-            },
-            {
-               "COMUNA":"REQUINOA",
-               "DIAS_VISITA":"MA",
-               "CODIGO_POSTAL":"2930000",
-               "CON_DESPACHO":true,
-               "DIAS_DESPACHO":"6"
-            },
-            {
-               "COMUNA":"SAN FERNANDO",
-               "DIAS_VISITA":"LU - MA - MI - JU - VI",
-               "CODIGO_POSTAL":"3070000",
-               "CON_DESPACHO":true,
-               "DIAS_DESPACHO":"3"
-            },
-            {
-               "COMUNA":"SAN VICENTE DE TAGUA TAGUA",
-               "DIAS_VISITA":"LU - MI  - VI",
-               "CODIGO_POSTAL":"2970000",
-               "CON_DESPACHO":true,
-               "DIAS_DESPACHO":"4"
-            },
-            {
                "COMUNA":"SANTA CRUZ",
                "CON_DESPACHO":false
             }
@@ -547,18 +547,6 @@
          "REGION":"VII - REGION DEL MAULE",
          "COMUNAS":[
             {
-               "COMUNA":"CAUQUENES",
-               "CON_DESPACHO":false
-            },
-            {
-               "COMUNA":"CHANCO",
-               "CON_DESPACHO":false
-            },
-            {
-               "COMUNA":"COLBÚN",
-               "CON_DESPACHO":false
-            },
-            {
                "COMUNA":"CONSTITUCION",
                "DIAS_VISITA":"MA - JU",
                "CODIGO_POSTAL":"3560000",
@@ -566,27 +554,11 @@
                "DIAS_DESPACHO":"5"
             },
             {
-               "COMUNA":"CUREPTO",
-               "CON_DESPACHO":false
-            },
-            {
                "COMUNA":"CURICO",
                "DIAS_VISITA":"LU - MA - MI - JU - VI",
                "CODIGO_POSTAL":"3340000",
                "CON_DESPACHO":true,
                "DIAS_DESPACHO":"3"
-            },
-            {
-               "COMUNA":"EMPEDRADO",
-               "CON_DESPACHO":false
-            },
-            {
-               "COMUNA":"HUALAÑE",
-               "CON_DESPACHO":false
-            },
-            {
-               "COMUNA":"LICANTEN",
-               "CON_DESPACHO":false
             },
             {
                "COMUNA":"LINARES",
@@ -603,10 +575,6 @@
                "DIAS_DESPACHO":"6"
             },
             {
-               "COMUNA":"MAULE",
-               "CON_DESPACHO":false
-            },
-            {
                "COMUNA":"MOLINA",
                "DIAS_VISITA":"LU - MI - VI",
                "CODIGO_POSTAL":"3380000",
@@ -619,6 +587,66 @@
                "CODIGO_POSTAL":"3630000",
                "CON_DESPACHO":true,
                "DIAS_DESPACHO":"5"
+            },
+            {
+               "COMUNA":"SAN CLEMENTE",
+               "DIAS_VISITA":"LU - MI",
+               "CODIGO_POSTAL":"3520000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"5"
+            },
+            {
+               "COMUNA":"SAN JAVIER",
+               "DIAS_VISITA":"MA",
+               "CODIGO_POSTAL":"3660000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"6"
+            },
+            {
+               "COMUNA":"TALCA",
+               "DIAS_VISITA":"LU - MA - MI - JU - VI",
+               "CODIGO_POSTAL":"3460000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"3"
+            },
+            {
+               "COMUNA":"VILLA ALEGRE",
+               "DIAS_VISITA":"JU",
+               "CODIGO_POSTAL":"3650000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"6"
+            },
+            {
+               "COMUNA":"CAUQUENES",
+               "CON_DESPACHO":false
+            },
+            {
+               "COMUNA":"CHANCO",
+               "CON_DESPACHO":false
+            },
+            {
+               "COMUNA":"COLBÚN",
+               "CON_DESPACHO":false
+            },
+            {
+               "COMUNA":"CUREPTO",
+               "CON_DESPACHO":false
+            },
+            {
+               "COMUNA":"EMPEDRADO",
+               "CON_DESPACHO":false
+            },
+            {
+               "COMUNA":"HUALAÑE",
+               "CON_DESPACHO":false
+            },
+            {
+               "COMUNA":"LICANTEN",
+               "CON_DESPACHO":false
+            },
+            {
+               "COMUNA":"MAULE",
+               "CON_DESPACHO":false
             },
             {
                "COMUNA":"PELARCO",
@@ -653,29 +681,8 @@
                "CON_DESPACHO":false
             },
             {
-               "COMUNA":"SAN CLEMENTE",
-               "DIAS_VISITA":"LU - MI",
-               "CODIGO_POSTAL":"3520000",
-               "CON_DESPACHO":true,
-               "DIAS_DESPACHO":"5"
-            },
-            {
-               "COMUNA":"SAN JAVIER",
-               "DIAS_VISITA":"MA",
-               "CODIGO_POSTAL":"3660000",
-               "CON_DESPACHO":true,
-               "DIAS_DESPACHO":"6"
-            },
-            {
                "COMUNA":"SAN RAFAEL",
                "CON_DESPACHO":false
-            },
-            {
-               "COMUNA":"TALCA",
-               "DIAS_VISITA":"LU - MA - MI - JU - VI",
-               "CODIGO_POSTAL":"3460000",
-               "CON_DESPACHO":true,
-               "DIAS_DESPACHO":"3"
             },
             {
                "COMUNA":"TENO",
@@ -684,13 +691,6 @@
             {
                "COMUNA":"VICHUQUEN",
                "CON_DESPACHO":false
-            },
-            {
-               "COMUNA":"VILLA ALEGRE",
-               "DIAS_VISITA":"JU",
-               "CODIGO_POSTAL":"3650000",
-               "CON_DESPACHO":true,
-               "DIAS_DESPACHO":"6"
             },
             {
                "COMUNA":"YERBAS BUENAS",
@@ -702,10 +702,6 @@
          "REGION":"VIII - REGION DEL BIOBIO",
          "COMUNAS":[
             {
-               "COMUNA":"ALTO BÍOBÍO",
-               "CON_DESPACHO":false
-            },
-            {
                "COMUNA":"ANTUCO",
                "DIAS_VISITA":"LU",
                "CODIGO_POSTAL":"4490000",
@@ -713,19 +709,11 @@
                "DIAS_DESPACHO":"6"
             },
             {
-               "COMUNA":"ARAUCO",
-               "CON_DESPACHO":false
-            },
-            {
                "COMUNA":"CABRERO",
                "DIAS_VISITA":"MA",
                "CODIGO_POSTAL":"4470000",
                "CON_DESPACHO":true,
                "DIAS_DESPACHO":"6"
-            },
-            {
-               "COMUNA":"CAÑETE",
-               "CON_DESPACHO":false
             },
             {
                "COMUNA":"CHIGUAYANTE",
@@ -742,23 +730,11 @@
                "DIAS_DESPACHO":"3"
             },
             {
-               "COMUNA":"CONTULMO",
-               "CON_DESPACHO":false
-            },
-            {
                "COMUNA":"CORONEL",
                "DIAS_VISITA":"LU - MA - MI -JU - VI",
                "CODIGO_POSTAL":"4190000",
                "CON_DESPACHO":true,
                "DIAS_DESPACHO":"3"
-            },
-            {
-               "COMUNA":"CURANILAHUE",
-               "CON_DESPACHO":false
-            },
-            {
-               "COMUNA":"FLORIDA",
-               "CON_DESPACHO":false
             },
             {
                "COMUNA":"HUALPEN",
@@ -768,23 +744,11 @@
                "DIAS_DESPACHO":"3"
             },
             {
-               "COMUNA":"HUALQUI",
-               "CON_DESPACHO":false
-            },
-            {
                "COMUNA":"LAJA",
                "DIAS_VISITA":"VI",
                "CODIGO_POSTAL":"4560000",
                "CON_DESPACHO":true,
                "DIAS_DESPACHO":"6"
-            },
-            {
-               "COMUNA":"LEBU",
-               "CON_DESPACHO":false
-            },
-            {
-               "COMUNA":"LOS ÁLAMOS",
-               "CON_DESPACHO":false
             },
             {
                "COMUNA":"LOS ANGELES",
@@ -829,14 +793,6 @@
                "DIAS_DESPACHO":"4"
             },
             {
-               "COMUNA":"QUILACO",
-               "CON_DESPACHO":false
-            },
-            {
-               "COMUNA":"QUILLECO",
-               "CON_DESPACHO":false
-            },
-            {
                "COMUNA":"SAN PEDRO DE LA PAZ",
                "DIAS_VISITA":"LU - MA - MI - JU - VI - SA",
                "CODIGO_POSTAL":"4130000",
@@ -858,19 +814,11 @@
                "DIAS_DESPACHO":"6"
             },
             {
-               "COMUNA":"SANTA JUANA",
-               "CON_DESPACHO":false
-            },
-            {
                "COMUNA":"TALCAHUANO",
                "DIAS_VISITA":"LU - MA - MI - JU - VI",
                "CODIGO_POSTAL":"4260000",
                "CON_DESPACHO":true,
                "DIAS_DESPACHO":"3"
-            },
-            {
-               "COMUNA":"TIRÚA",
-               "CON_DESPACHO":false
             },
             {
                "COMUNA":"TOME",
@@ -892,6 +840,58 @@
                "CODIGO_POSTAL":"4580000",
                "CON_DESPACHO":true,
                "DIAS_DESPACHO":"6"
+            },
+            {
+               "COMUNA":"ALTO BÍOBÍO",
+               "CON_DESPACHO":false
+            },
+            {
+               "COMUNA":"ARAUCO",
+               "CON_DESPACHO":false
+            },
+            {
+               "COMUNA":"CAÑETE",
+               "CON_DESPACHO":false
+            },
+            {
+               "COMUNA":"CONTULMO",
+               "CON_DESPACHO":false
+            },
+            {
+               "COMUNA":"CURANILAHUE",
+               "CON_DESPACHO":false
+            },
+            {
+               "COMUNA":"FLORIDA",
+               "CON_DESPACHO":false
+            },
+            {
+               "COMUNA":"HUALQUI",
+               "CON_DESPACHO":false
+            },
+            {
+               "COMUNA":"LEBU",
+               "CON_DESPACHO":false
+            },
+            {
+               "COMUNA":"LOS ÁLAMOS",
+               "CON_DESPACHO":false
+            },
+            {
+               "COMUNA":"QUILACO",
+               "CON_DESPACHO":false
+            },
+            {
+               "COMUNA":"QUILLECO",
+               "CON_DESPACHO":false
+            },
+            {
+               "COMUNA":"SANTA JUANA",
+               "CON_DESPACHO":false
+            },
+            {
+               "COMUNA":"TIRÚA",
+               "CON_DESPACHO":false
             }
          ]
       },
@@ -918,6 +918,13 @@
                "CODIGO_POSTAL":"3820000",
                "CON_DESPACHO":true,
                "DIAS_DESPACHO":"3"
+            },
+            {
+               "COMUNA":"SAN CARLOS",
+               "DIAS_VISITA":"MA - JU",
+               "CODIGO_POSTAL":"3840000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"5"
             },
             {
                "COMUNA":"COBQUECURA",
@@ -968,13 +975,6 @@
                "CON_DESPACHO":false
             },
             {
-               "COMUNA":"SAN CARLOS",
-               "DIAS_VISITA":"MA - JU",
-               "CODIGO_POSTAL":"3840000",
-               "CON_DESPACHO":true,
-               "DIAS_DESPACHO":"5"
-            },
-            {
                "COMUNA":"SAN FABIÁN",
                "CON_DESPACHO":false
             },
@@ -1014,6 +1014,69 @@
                "DIAS_DESPACHO":"6"
             },
             {
+               "COMUNA":"LAUTARO",
+               "DIAS_VISITA":"MA - SA",
+               "CODIGO_POSTAL":"4860000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"5"
+            },
+            {
+               "COMUNA":"LUMACO",
+               "DIAS_VISITA":"VI",
+               "CODIGO_POSTAL":"4740000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"6"
+            },
+            {
+               "COMUNA":"NUEVA IMPERIAL",
+               "DIAS_VISITA":"LU - MI - VI",
+               "CODIGO_POSTAL":"5020000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"4"
+            },
+            {
+               "COMUNA":"PADRE LAS CASAS",
+               "DIAS_VISITA":"LU - MA - MI - JU - VI",
+               "CODIGO_POSTAL":"4850000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"3"
+            },
+            {
+               "COMUNA":"PUCON",
+               "DIAS_VISITA":"SA",
+               "CODIGO_POSTAL":"4920000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"6"
+            },
+            {
+               "COMUNA":"RENAICO",
+               "DIAS_VISITA":"VI",
+               "CODIGO_POSTAL":"4670000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"6"
+            },
+            {
+               "COMUNA":"TEMUCO",
+               "DIAS_VISITA":"LU - MA - MI - JU - VI - SA",
+               "CODIGO_POSTAL":"4780000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"3"
+            },
+            {
+               "COMUNA":"VICTORIA",
+               "DIAS_VISITA":"MA - SA",
+               "CODIGO_POSTAL":"4720000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"5"
+            },
+            {
+               "COMUNA":"VILLARRICA",
+               "DIAS_VISITA":"MA - SA",
+               "CODIGO_POSTAL":"4930000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"5"
+            },
+            {
                "COMUNA":"CHOLCHOL",
                "CON_DESPACHO":false
             },
@@ -1050,13 +1113,6 @@
                "CON_DESPACHO":false
             },
             {
-               "COMUNA":"LAUTARO",
-               "DIAS_VISITA":"MA - SA",
-               "CODIGO_POSTAL":"4860000",
-               "CON_DESPACHO":true,
-               "DIAS_DESPACHO":"5"
-            },
-            {
                "COMUNA":"LONCOCHE",
                "CON_DESPACHO":false
             },
@@ -1069,29 +1125,8 @@
                "CON_DESPACHO":false
             },
             {
-               "COMUNA":"LUMACO",
-               "DIAS_VISITA":"VI",
-               "CODIGO_POSTAL":"4740000",
-               "CON_DESPACHO":true,
-               "DIAS_DESPACHO":"6"
-            },
-            {
                "COMUNA":"MELIPEUCO",
                "CON_DESPACHO":false
-            },
-            {
-               "COMUNA":"NUEVA IMPERIAL",
-               "DIAS_VISITA":"LU - MI - VI",
-               "CODIGO_POSTAL":"5020000",
-               "CON_DESPACHO":true,
-               "DIAS_DESPACHO":"4"
-            },
-            {
-               "COMUNA":"PADRE LAS CASAS",
-               "DIAS_VISITA":"LU - MA - MI - JU - VI",
-               "CODIGO_POSTAL":"4850000",
-               "CON_DESPACHO":true,
-               "DIAS_DESPACHO":"3"
             },
             {
                "COMUNA":"PERQUENCO",
@@ -1102,33 +1137,12 @@
                "CON_DESPACHO":false
             },
             {
-               "COMUNA":"PUCON",
-               "DIAS_VISITA":"SA",
-               "CODIGO_POSTAL":"4920000",
-               "CON_DESPACHO":true,
-               "DIAS_DESPACHO":"6"
-            },
-            {
                "COMUNA":"PURÉN",
                "CON_DESPACHO":false
             },
             {
-               "COMUNA":"RENAICO",
-               "DIAS_VISITA":"VI",
-               "CODIGO_POSTAL":"4670000",
-               "CON_DESPACHO":true,
-               "DIAS_DESPACHO":"6"
-            },
-            {
                "COMUNA":"SAAVEDRA",
                "CON_DESPACHO":false
-            },
-            {
-               "COMUNA":"TEMUCO",
-               "DIAS_VISITA":"LU - MA - MI - JU - VI - SA",
-               "CODIGO_POSTAL":"4780000",
-               "CON_DESPACHO":true,
-               "DIAS_DESPACHO":"3"
             },
             {
                "COMUNA":"TEODORO SCHMIDT",
@@ -1143,28 +1157,49 @@
                "CON_DESPACHO":false
             },
             {
-               "COMUNA":"VICTORIA",
-               "DIAS_VISITA":"MA - SA",
-               "CODIGO_POSTAL":"4720000",
-               "CON_DESPACHO":true,
-               "DIAS_DESPACHO":"5"
-            },
-            {
                "COMUNA":"VILCÚN",
                "CON_DESPACHO":false
-            },
-            {
-               "COMUNA":"VILLARRICA",
-               "DIAS_VISITA":"MA - SA",
-               "CODIGO_POSTAL":"4930000",
-               "CON_DESPACHO":true,
-               "DIAS_DESPACHO":"5"
             }
          ]
       },
       {
          "REGION":"X - REGION DE LOS LAGOS",
          "COMUNAS":[
+            {
+               "COMUNA":"OSORNO",
+               "DIAS_VISITA":"LU - MA - MI - JU - VI",
+               "CODIGO_POSTAL":"5290000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"3"
+            },
+            {
+               "COMUNA":"PUERTO MONTT",
+               "DIAS_VISITA":"LU - MA - MI - JU - VI - SA",
+               "CODIGO_POSTAL":"5480000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"3"
+            },
+            {
+               "COMUNA":"PUERTO VARAS",
+               "DIAS_VISITA":"LU - MI - VI",
+               "CODIGO_POSTAL":"5550000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"4"
+            },
+            {
+               "COMUNA":"PURRANQUE",
+               "DIAS_VISITA":"MA - JU",
+               "CODIGO_POSTAL":"5380000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"5"
+            },
+            {
+               "COMUNA":"RIO NEGRO",
+               "DIAS_VISITA":"VI",
+               "CODIGO_POSTAL":"5390000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"6"
+            },
             {
                "COMUNA":"ANCUD",
                "CON_DESPACHO":false
@@ -1226,44 +1261,16 @@
                "CON_DESPACHO":false
             },
             {
-               "COMUNA":"OSORNO",
-               "DIAS_VISITA":"LU - MA - MI - JU - VI",
-               "CODIGO_POSTAL":"5290000",
-               "CON_DESPACHO":true,
-               "DIAS_DESPACHO":"3"
-            },
-            {
                "COMUNA":"PALENA",
                "CON_DESPACHO":false
-            },
-            {
-               "COMUNA":"PUERTO MONTT",
-               "DIAS_VISITA":"LU - MA - MI - JU - VI - SA",
-               "CODIGO_POSTAL":"5480000",
-               "CON_DESPACHO":true,
-               "DIAS_DESPACHO":"3"
             },
             {
                "COMUNA":"PUERTO OCTAY",
                "CON_DESPACHO":false
             },
             {
-               "COMUNA":"PUERTO VARAS",
-               "DIAS_VISITA":"LU - MI - VI",
-               "CODIGO_POSTAL":"5550000",
-               "CON_DESPACHO":true,
-               "DIAS_DESPACHO":"4"
-            },
-            {
                "COMUNA":"PUQUELDÓN",
                "CON_DESPACHO":false
-            },
-            {
-               "COMUNA":"PURRANQUE",
-               "DIAS_VISITA":"MA - JU",
-               "CODIGO_POSTAL":"5380000",
-               "CON_DESPACHO":true,
-               "DIAS_DESPACHO":"5"
             },
             {
                "COMUNA":"PUYEHUE",
@@ -1284,13 +1291,6 @@
             {
                "COMUNA":"QUINCHAO",
                "CON_DESPACHO":false
-            },
-            {
-               "COMUNA":"RIO NEGRO",
-               "DIAS_VISITA":"VI",
-               "CODIGO_POSTAL":"5390000",
-               "CON_DESPACHO":true,
-               "DIAS_DESPACHO":"6"
             },
             {
                "COMUNA":"SAN JUAN DE LA COSTA",
@@ -1400,18 +1400,6 @@
          "REGION":"XIII - REGION METROPOLITANA",
          "COMUNAS":[
             {
-               "COMUNA":"ALHUE",
-               "CON_DESPACHO":false
-            },
-            {
-               "COMUNA":"BUIN",
-               "CON_DESPACHO":false
-            },
-            {
-               "COMUNA":"CALERA DE TANGO",
-               "CON_DESPACHO":false
-            },
-            {
                "COMUNA":"CERRILLOS",
                "DIAS_VISITA":"LU - MA - MI - JU - VI - SA",
                "CODIGO_POSTAL":"9200000",
@@ -1426,10 +1414,6 @@
                "DIAS_DESPACHO":"3"
             },
             {
-               "COMUNA":"COLINA",
-               "CON_DESPACHO":false
-            },
-            {
                "COMUNA":"CONCHALI",
                "DIAS_VISITA":"LU - MA - MI - JU - VI - SA",
                "CODIGO_POSTAL":"8540000",
@@ -1437,19 +1421,11 @@
                "DIAS_DESPACHO":"3"
             },
             {
-               "COMUNA":"CURACAVI",
-               "CON_DESPACHO":false
-            },
-            {
                "COMUNA":"EL BOSQUE",
                "DIAS_VISITA":"LU - MA - MI - JU - VI",
                "CODIGO_POSTAL":"8010000",
                "CON_DESPACHO":true,
                "DIAS_DESPACHO":"3"
-            },
-            {
-               "COMUNA":"EL MONTE",
-               "CON_DESPACHO":false
             },
             {
                "COMUNA":"ESTACION CENTRAL",
@@ -1471,10 +1447,6 @@
                "CODIGO_POSTAL":"8380000",
                "CON_DESPACHO":true,
                "DIAS_DESPACHO":"3"
-            },
-            {
-               "COMUNA":"ISLA DE MAIPO",
-               "CON_DESPACHO":false
             },
             {
                "COMUNA":"LA CISTERNA",
@@ -1510,10 +1482,6 @@
                "CODIGO_POSTAL":"7850000",
                "CON_DESPACHO":true,
                "DIAS_DESPACHO":"2"
-            },
-            {
-               "COMUNA":"LAMPA",
-               "CON_DESPACHO":false
             },
             {
                "COMUNA":"LAS CONDES",
@@ -1558,14 +1526,6 @@
                "DIAS_DESPACHO":"3"
             },
             {
-               "COMUNA":"MARIA PINTO",
-               "CON_DESPACHO":false
-            },
-            {
-               "COMUNA":"MELIPILLA",
-               "CON_DESPACHO":false
-            },
-            {
                "COMUNA":"ÑUÑOA",
                "DIAS_VISITA":"LU - MA - MI - JU - VI",
                "CODIGO_POSTAL":"7750000",
@@ -1578,10 +1538,6 @@
                "CODIGO_POSTAL":"9710000",
                "CON_DESPACHO":true,
                "DIAS_DESPACHO":"4"
-            },
-            {
-               "COMUNA":"PAINE",
-               "CON_DESPACHO":false
             },
             {
                "COMUNA":"PEDRO AGUIRRE CERDA",
@@ -1603,10 +1559,6 @@
                "CODIGO_POSTAL":"7910000",
                "CON_DESPACHO":true,
                "DIAS_DESPACHO":"3"
-            },
-            {
-               "COMUNA":"PIRQUE",
-               "CON_DESPACHO":false
             },
             {
                "COMUNA":"PROVIDENCIA",
@@ -1672,19 +1624,11 @@
                "DIAS_DESPACHO":"3"
             },
             {
-               "COMUNA":"SAN JOSE DE MAIPO",
-               "CON_DESPACHO":false
-            },
-            {
                "COMUNA":"SAN MIGUEL",
                "DIAS_VISITA":"LU - MA - MI - JU - VI - SA",
                "CODIGO_POSTAL":"8900000",
                "CON_DESPACHO":true,
                "DIAS_DESPACHO":"3"
-            },
-            {
-               "COMUNA":"SAN PEDRO",
-               "CON_DESPACHO":false
             },
             {
                "COMUNA":"SAN RAMON",
@@ -1708,15 +1652,71 @@
                "DIAS_DESPACHO":"4"
             },
             {
-               "COMUNA":"TILTIL",
-               "CON_DESPACHO":false
-            },
-            {
                "COMUNA":"VITACURA",
                "DIAS_VISITA":"LU - MA - MI - JU - VI",
                "CODIGO_POSTAL":"7630000",
                "CON_DESPACHO":true,
                "DIAS_DESPACHO":"3"
+            },
+            {
+               "COMUNA":"ALHUE",
+               "CON_DESPACHO":false
+            },
+            {
+               "COMUNA":"BUIN",
+               "CON_DESPACHO":false
+            },
+            {
+               "COMUNA":"CALERA DE TANGO",
+               "CON_DESPACHO":false
+            },
+            {
+               "COMUNA":"COLINA",
+               "CON_DESPACHO":false
+            },
+            {
+               "COMUNA":"CURACAVI",
+               "CON_DESPACHO":false
+            },
+            {
+               "COMUNA":"EL MONTE",
+               "CON_DESPACHO":false
+            },
+            {
+               "COMUNA":"ISLA DE MAIPO",
+               "CON_DESPACHO":false
+            },
+            {
+               "COMUNA":"LAMPA",
+               "CON_DESPACHO":false
+            },
+            {
+               "COMUNA":"MARIA PINTO",
+               "CON_DESPACHO":false
+            },
+            {
+               "COMUNA":"MELIPILLA",
+               "CON_DESPACHO":false
+            },
+            {
+               "COMUNA":"PAINE",
+               "CON_DESPACHO":false
+            },
+            {
+               "COMUNA":"PIRQUE",
+               "CON_DESPACHO":false
+            },
+            {
+               "COMUNA":"SAN JOSE DE MAIPO",
+               "CON_DESPACHO":false
+            },
+            {
+               "COMUNA":"SAN PEDRO",
+               "CON_DESPACHO":false
+            },
+            {
+               "COMUNA":"TILTIL",
+               "CON_DESPACHO":false
             }
          ]
       },
@@ -1724,19 +1724,33 @@
          "REGION":"XIV - REGION DE LOS RIOS",
          "COMUNAS":[
             {
+               "COMUNA":"LA UNION",
+               "DIAS_VISITA":"MA - SA",
+               "CODIGO_POSTAL":"5220000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"5"
+            },
+            {
+               "COMUNA":"RIO BUENO",
+               "DIAS_VISITA":"MA - SA",
+               "CODIGO_POSTAL":"5240000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"5"
+            },
+            {
+               "COMUNA":"VALDIVIA",
+               "DIAS_VISITA":"LU - MA - MI - JU - VI",
+               "CODIGO_POSTAL":"5090000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"3"
+            },
+            {
                "COMUNA":"CORRAL",
                "CON_DESPACHO":false
             },
             {
                "COMUNA":"FUTRONO",
                "CON_DESPACHO":false
-            },
-            {
-               "COMUNA":"LA UNION",
-               "DIAS_VISITA":"MA - SA",
-               "CODIGO_POSTAL":"5220000",
-               "CON_DESPACHO":true,
-               "DIAS_DESPACHO":"5"
             },
             {
                "COMUNA":"LAGO RANCO",
@@ -1765,20 +1779,6 @@
             {
                "COMUNA":"PANGUIPULLI",
                "CON_DESPACHO":false
-            },
-            {
-               "COMUNA":"RIO BUENO",
-               "DIAS_VISITA":"MA - SA",
-               "CODIGO_POSTAL":"5240000",
-               "CON_DESPACHO":true,
-               "DIAS_DESPACHO":"5"
-            },
-            {
-               "COMUNA":"VALDIVIA",
-               "DIAS_VISITA":"LU - MA - MI - JU - VI",
-               "CODIGO_POSTAL":"5090000",
-               "CON_DESPACHO":true,
-               "DIAS_DESPACHO":"3"
             }
          ]
       },

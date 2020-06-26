@@ -71,6 +71,15 @@ const InputSelectRegiones = ({ classAdd, regionsList = [], fieldName, comunaName
   `;
   const handleChange = e => {
     setFormData({ ...formData, [fieldName]: e.target.value});
+    if(formData[comunaName] !== ""){
+      setFormData({
+        ...formData,
+        [fieldName] : e.target.value,
+        [comunaName] : regionsList.find(
+          (region) => region.REGION === e.target.value
+        ).COMUNAS[0].COMUNA,
+      })
+    }
     setValidationData({ ...validationData, [fieldName]: true });
   };
 
@@ -78,7 +87,7 @@ const InputSelectRegiones = ({ classAdd, regionsList = [], fieldName, comunaName
   //   loaded && setFormData({...formData, [comunaName]: regionsList.find(region=> region.REGION === formData[fieldName]).COMUNAS[0].COMUNA})
   // },[formData[fieldName]])
 
-const regiones = regionsList.map((region,i) => {return(<ItemOption key={i} text={region.REGION}/>)})
+  const regiones = regionsList.map((region,i) => {return(<ItemOption key={i} text={region.REGION}/>)})
 
   return (
     <SelectContainer className={classAdd}>
@@ -86,12 +95,12 @@ const regiones = regionsList.map((region,i) => {return(<ItemOption key={i} text=
         value={formData[fieldName] === '' ? 'SELECCIONA UNA REGIÓN' : formData[fieldName]}
         id="select-1"
         onChange={handleChange}
-        className={disabledFields && 'disabled'}
+        className={disabledFields ? 'disabled' : undefined}
       >
         {formData[fieldName] === '' && <ItemOption key="0202" text="SELECCIONA UNA REGIÓN"/>}
         {regiones}
       </select>
-      <label htmlFor="select-1" className={disabledFields && 'disabled'}>
+      <label htmlFor="select-1" className={disabledFields ? 'disabled' : undefined}>
         <img className="arrow" src={Arrow} alt="arrow" />
       </label>
     </SelectContainer>

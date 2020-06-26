@@ -79,13 +79,33 @@ const InputSelectComunas = ({ classAdd, regionsList, loaded, fieldName, regionFi
         value={formData[fieldName] === '' ? 'SELECCIONA UNA COMUNA' : formData[fieldName]}
         id="select-1"
         onChange={handleChange}
-        className={disabledFields && 'disabled'}
+        className={disabledFields ? 'disabled' : undefined}
       >
-      {formData[fieldName] === '' && <ItemOption key="0202" text="SELECCIONA UNA COMUNA"/>}
-    {(loaded && formData[regionField] !== '') && regionsList.find(region=> region.REGION === formData[regionField]).COMUNAS.map((comuna,i)=>{return(<ItemOption key={i} text={(comuna.CON_DESPACHO) ? comuna.COMUNA : (regionField === 'contractRegion' ? comuna.COMUNA : comuna.COMUNA + ' - NO DISPONIBLE')} isEnabled={comuna.CON_DESPACHO} allAvailable={regionField === 'contractRegion' ? true : false}/>)})}
-        
+      {formData[fieldName] === '' && (
+        <ItemOption key="0202" text="SELECCIONA UNA COMUNA"/>
+      )}
+      {(loaded && 
+        formData[regionField] !== '') && 
+        regionsList
+          .find((region) => region.REGION === formData[regionField])
+          .COMUNAS.map((comuna,i)=>{
+            return(
+              <ItemOption
+                key={i} 
+                text={
+                  (comuna.CON_DESPACHO) 
+                    ? comuna.COMUNA 
+                    : (regionField === 'contractRegion' 
+                    ? comuna.COMUNA 
+                    : comuna.COMUNA + ' - NO DISPONIBLE'
+                  )} 
+                  isEnabled={comuna.CON_DESPACHO} 
+                  allAvailable={regionField === 'contractRegion' ? true : false}
+              />
+              )
+          })}
       </select>
-      <label htmlFor="select-1" className={disabledFields && 'disabled'}>
+      <label htmlFor="select-1" className={disabledFields ? 'disabled' : undefined}>
         <img className="arrow" src={Arrow} alt="arrow" />
       </label>
     </SelectContainer>
