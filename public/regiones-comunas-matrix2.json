@@ -825,6 +825,13 @@
                "DIAS_DESPACHO":"7"
             },
             {
+               "COMUNA":"RANCAGUA",
+               "DIAS_VISITA":"LU - MA - MI - JU - VI",
+               "CODIGO_POSTAL":"2820000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"7"
+            },
+            {
                "COMUNA":"SAN PEDRO DE LA PAZ",
                "DIAS_VISITA":"LU - MA - MI - JU - VI",
                "CODIGO_POSTAL":"4130000",
