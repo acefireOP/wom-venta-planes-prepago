@@ -420,6 +420,13 @@
                "DIAS_DESPACHO":"7"
             },
             {
+               "COMUNA":"RANCAGUA",
+               "DIAS_VISITA":"LU - MA - MI - JU - VI",
+               "CODIGO_POSTAL":"2820000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"7"
+            },
+            {
                "COMUNA":"RENGO",
                "DIAS_VISITA":"LU - MA - MI - JU - VI",
                "CODIGO_POSTAL":"2940000",
@@ -538,10 +545,6 @@
             },
             {
                "COMUNA":"QUINTA DE TILCOCO",
-               "CON_DESPACHO":false
-            },
-            {
-               "COMUNA":"RANCAGUA",
                "CON_DESPACHO":false
             },
             {
@@ -821,13 +824,6 @@
                "COMUNA":"QUILLECO",
                "DIAS_VISITA":"LU - MA - MI - JU - VI",
                "CODIGO_POSTAL":"4530000",
-               "CON_DESPACHO":true,
-               "DIAS_DESPACHO":"7"
-            },
-            {
-               "COMUNA":"RANCAGUA",
-               "DIAS_VISITA":"LU - MA - MI - JU - VI",
-               "CODIGO_POSTAL":"2820000",
                "CON_DESPACHO":true,
                "DIAS_DESPACHO":"7"
             },
