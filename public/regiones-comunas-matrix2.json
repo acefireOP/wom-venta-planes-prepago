@@ -138,6 +138,13 @@
                "DIAS_DESPACHO":"3"
             },
             {
+               "COMUNA":"LAS COMPAÑÍAS",
+               "DIAS_VISITA":"LU - MA - MI - JU - VI",
+               "CODIGO_POSTAL":"1700000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"7"
+            },
+            {
                "COMUNA":"LA SERENA",
                "DIAS_VISITA":"LU - MA - MI - JU - VI",
                "CODIGO_POSTAL":"1700000",
@@ -214,6 +221,13 @@
                "CODIGO_POSTAL":"2510000",
                "CON_DESPACHO":true,
                "DIAS_DESPACHO":"4"
+            },
+            {
+               "COMUNA":"EL BELLOTO",
+               "DIAS_VISITA":"LU - MA - MI - JU - VI",
+               "CODIGO_POSTAL":"2430000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"7"
             },
             {
                "COMUNA":"LLAILLAY",
@@ -413,13 +427,6 @@
                "DIAS_DESPACHO":"4"
             },
             {
-               "COMUNA":"REQUINOA",
-               "DIAS_VISITA":"MA",
-               "CODIGO_POSTAL":"2930000",
-               "CON_DESPACHO":true,
-               "DIAS_DESPACHO":"6"
-            },
-            {
                "COMUNA":"SAN FERNANDO",
                "DIAS_VISITA":"LU - MA - MI - JU - VI",
                "CODIGO_POSTAL":"3070000",
@@ -538,6 +545,10 @@
                "CON_DESPACHO":false
             },
             {
+               "COMUNA":"REQUINOA",
+               "CON_DESPACHO":false
+            },
+            {
                "COMUNA":"SANTA CRUZ",
                "CON_DESPACHO":false
             }
@@ -573,6 +584,13 @@
                "CODIGO_POSTAL":"3620000",
                "CON_DESPACHO":true,
                "DIAS_DESPACHO":"6"
+            },
+            {
+               "COMUNA":"LONTUE",
+               "DIAS_VISITA":"LU - MA - MI - JU - VI",
+               "CODIGO_POSTAL":"3380000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"7"
             },
             {
                "COMUNA":"MOLINA",
@@ -793,6 +811,20 @@
                "DIAS_DESPACHO":"4"
             },
             {
+               "COMUNA":"QUILACO",
+               "DIAS_VISITA":"LU - MA - MI - JU - VI",
+               "CODIGO_POSTAL":"4520000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"7"
+            },
+            {
+               "COMUNA":"QUILLECO",
+               "DIAS_VISITA":"LU - MA - MI - JU - VI",
+               "CODIGO_POSTAL":"4530000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"7"
+            },
+            {
                "COMUNA":"SAN PEDRO DE LA PAZ",
                "DIAS_VISITA":"LU - MA - MI - JU - VI - SA",
                "CODIGO_POSTAL":"4130000",
@@ -875,14 +907,6 @@
             },
             {
                "COMUNA":"LOS ÁLAMOS",
-               "CON_DESPACHO":false
-            },
-            {
-               "COMUNA":"QUILACO",
-               "CON_DESPACHO":false
-            },
-            {
-               "COMUNA":"QUILLECO",
                "CON_DESPACHO":false
             },
             {
@@ -1021,13 +1045,6 @@
                "DIAS_DESPACHO":"5"
             },
             {
-               "COMUNA":"LUMACO",
-               "DIAS_VISITA":"VI",
-               "CODIGO_POSTAL":"4740000",
-               "CON_DESPACHO":true,
-               "DIAS_DESPACHO":"6"
-            },
-            {
                "COMUNA":"NUEVA IMPERIAL",
                "DIAS_VISITA":"LU - MI - VI",
                "CODIGO_POSTAL":"5020000",
@@ -1122,6 +1139,10 @@
             },
             {
                "COMUNA":"LOS SAUCES",
+               "CON_DESPACHO":false
+            },
+            {
+               "COMUNA":"LUMACO",
                "CON_DESPACHO":false
             },
             {
@@ -1428,6 +1449,13 @@
                "DIAS_DESPACHO":"3"
             },
             {
+               "COMUNA":"EL MONTE",
+               "DIAS_VISITA":"LU - MA - MI - JU - VI",
+               "CODIGO_POSTAL":"9810000",
+               "CON_DESPACHO":true,
+               "DIAS_DESPACHO":"5"
+            },
+            {
                "COMUNA":"ESTACION CENTRAL",
                "DIAS_VISITA":"LU - MA - MI - JU - VI - SA",
                "CODIGO_POSTAL":"9160000",
@@ -1676,10 +1704,6 @@
             },
             {
                "COMUNA":"CURACAVI",
-               "CON_DESPACHO":false
-            },
-            {
-               "COMUNA":"EL MONTE",
                "CON_DESPACHO":false
             },
             {
