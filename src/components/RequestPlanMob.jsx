@@ -4,9 +4,6 @@ import { motion } from 'framer-motion'
 
 import PlanArrow from '../images/arrow_2.svg'
 import { FormContext } from "../context/FormContext";
-import Plan15gb from '../images/planes/plan15.svg'
-import Plan25gb from '../images/planes/plan25.svg'
-import Plan35gb from '../images/planes/plan35.svg'
 import PlanPrepago from '../images/planes/portate-wom.min.svg'
 
 const RequestContainerMob = styled(motion.div)`
