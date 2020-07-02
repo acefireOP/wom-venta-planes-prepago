@@ -139,7 +139,7 @@ const Step4 = ({isOpenProcess, setIsOpenProcess}) => {
   useEffect(()=>{
     setFormData({...formData,successFlow:true})
     window.scrollTo(0, 0)
-    ReactGA.pageview(window.location.pathname+`/?plan=${formData.selectedPlan}`)
+    ReactGA.pageview(window.location.pathname+`/?portate=${formData.selectedPlan}`)
   },[])
   return (
     <FinalSummary>

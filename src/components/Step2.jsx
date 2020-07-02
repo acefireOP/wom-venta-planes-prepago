@@ -114,7 +114,7 @@ const Step2 = () => {
   useEffect(()=>{
     setFormData({...formData,successFlow:false})
     window.scrollTo(0, 0)
-    ReactGA.pageview(window.location.pathname+`/?plan=${formData.selectedPlan}`);
+    ReactGA.pageview(window.location.pathname+`/?portate=${formData.selectedPlan}`);
     //setFormData({...formData,successFlow:false,dispatchRegion:'',dispatchComuna:''})
     //setValidationData({...validationData,dispatchRegion:false,dispatchComuna:false})
 
@@ -160,7 +160,7 @@ const Step2 = () => {
         <PrevButton
           stepNum="Volver"
           stepTitle="Tus Datos"
-          route={`/?plan=${formData.selectedPlan}`}
+          route={`/?portate=${formData.selectedPlan}`}
         />
         <NextButton
           stepNum="3"

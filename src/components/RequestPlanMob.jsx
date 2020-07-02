@@ -103,10 +103,7 @@ const RequestPlanMob = ({isOpenProcess, setIsOpenProcess}) => {
       >
         <div className="container-imgplan">
           {formData.selectedPlan === undefined && <img src={PlanPrepago} alt="plan portate prepago"/>}
-          {formData.selectedPlan === '15gb' && <img src={Plan15gb} alt="plan 15 gb"/>}
-          {formData.selectedPlan === '25gb' && <img src={Plan25gb} alt="plan 25 gb"/>}
-          {formData.selectedPlan === '35gb' && <img src={Plan35gb} alt="plan 35 gb"/>}
-          {formData.selectedPlan === 'bolsa_prepago' && <img src={PlanPrepago} alt="plan portate prepago"/>}
+          {formData.selectedPlan === 'prepago' && <img src={PlanPrepago} alt="plan portate prepago"/>}
         </div>
         <span 
           className="link-process"

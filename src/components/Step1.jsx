@@ -130,11 +130,11 @@ const Step1 = ({location}) => {
   const parsed = queryString.parse(location.search);
 
   useEffect(()=>{
-    setFormData({...formData,selectedPlan:parsed.plan,successFlow:false})
-    ReactGA.pageview(window.location.pathname + parsed.plan);
+    setFormData({...formData,selectedPlan:parsed.portate,successFlow:false})
+    ReactGA.pageview(window.location.pathname + parsed.portate);
   },[])
 
-  if((formData.selectedPlan !== undefined && formData.selectedPlan === '15gb') || (formData.selectedPlan !== undefined && formData.selectedPlan === '25gb') || (formData.selectedPlan !== undefined && formData.selectedPlan === '35gb') || (formData.selectedPlan !== undefined && formData.selectedPlan === 'bolsa_prepago')) {
+  if((formData.selectedPlan !== undefined && formData.selectedPlan === 'prepago')) {
     return (
       <StepWrapper>
         <h1>Solicita tu Chip prepago WOM en línea</h1>

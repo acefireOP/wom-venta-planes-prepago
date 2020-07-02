@@ -26,7 +26,7 @@ const Step3 = () => {
   useEffect(()=>{
     setFormData({...formData,successFlow:false})
     window.scrollTo(0, 0)
-    ReactGA.pageview(window.location.pathname+`/?plan=${formData.selectedPlan}`);
+    ReactGA.pageview(window.location.pathname+`/?portate=${formData.selectedPlan}`);
   },[])
   return (
     <Fragment>
