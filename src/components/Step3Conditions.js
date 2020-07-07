@@ -115,7 +115,7 @@ const Step3Conditions = () => {
   const history = useHistory();
   const handleClick = () =>{
     const sendDate = new Date().toUTCString();
-    let ventaPlanesRef = firebase.firestore().collection('venta-prepago');
+    let ventaPlanesRef = firebase.firestore().collection('venta-prepago-test');
     setSending(true);
     ReactGA.set(formData);
     ventaPlanesRef.add({
