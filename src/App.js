@@ -13,6 +13,7 @@ import Step1 from './components/Step1'
 import Step2 from './components/Step2'
 import Step3 from './components/Step3'
 import Step4 from './components/Step4'
+import ExitStep from './components/ExitStep'
 import RequestPlan from './components/RequestPlan'
 import RequestPlanMob from './components/RequestPlanMob'
 import ModalProcess from './components/ModalProcess'
@@ -92,6 +93,7 @@ function App() {
                   <Route exact path ="/paso2" component={Step2}/>
                   <Route exact path ="/paso3" component={Step3}/>
                   <Route exact path ="/paso4" component={Step4}/>
+                  <Route exact path ="/pasoFinal" component={ExitStep}/>
                 </Switch>
             </Steps>
           </PageWrapper>

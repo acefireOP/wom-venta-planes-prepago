@@ -21,13 +21,23 @@ const WrapperStep3 = styled.div`
   }
 `
 
-const Step3 = () => {
+const Step3 = ({history}) => {
   const { formData, setFormData } = useContext(FormContext);
   useEffect(()=>{
     setFormData({...formData,successFlow:false})
     window.scrollTo(0, 0)
     ReactGA.pageview(window.location.pathname+`/?portate=${formData.selectedPlan}`);
   },[])
+
+  useEffect(() => {
+    return () => {
+      // && history.location.pathname === "any specific path")
+      if (history.action === "POP") {
+        history.replace('/pasoFinal');
+      }
+    };
+  }, [history])
+
   return (
     <Fragment>
       <TitleBlock classAdd="mb-20 light-purple font-20-px text-center-mob" titulo="Resumen de tu solicitud"/>

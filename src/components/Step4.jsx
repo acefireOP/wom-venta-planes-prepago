@@ -140,7 +140,8 @@ const Step4 = ({isOpenProcess, setIsOpenProcess}) => {
     setFormData({...formData,successFlow:true})
     window.scrollTo(0, 0)
     ReactGA.pageview(window.location.pathname+`/?portate=${formData.selectedPlan}`)
-  },[])
+  },[]);
+  
   return (
     <FinalSummary>
       <div className="wrapper-summary">
