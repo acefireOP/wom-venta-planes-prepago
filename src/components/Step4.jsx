@@ -134,13 +134,23 @@ const FinalSummary = styled.div`
   }
 `
 
-const Step4 = ({isOpenProcess, setIsOpenProcess}) => {
+const Step4 = ({isOpenProcess, setIsOpenProcess, history}) => {
   const { formData, setFormData } = useContext(FormContext);
   useEffect(()=>{
     setFormData({...formData,successFlow:true})
     window.scrollTo(0, 0)
     ReactGA.pageview(window.location.pathname+`/?portate=${formData.selectedPlan}`)
   },[]);
+
+  useEffect(() => {
+    return () => {
+      // && history.location.pathname === "any specific path")
+      if (history.action === "POP") {
+        //history.replace('/pasoFinal');
+        window.location.replace('https://www.wom.cl/prepago')
+      }
+    };
+  }, [history])
   
   return (
     <FinalSummary>

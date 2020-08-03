@@ -21,22 +21,13 @@ const WrapperStep3 = styled.div`
   }
 `
 
-const Step3 = ({history}) => {
+const Step3 = () => {
   const { formData, setFormData } = useContext(FormContext);
   useEffect(()=>{
     setFormData({...formData,successFlow:false})
     window.scrollTo(0, 0)
     ReactGA.pageview(window.location.pathname+`/?portate=${formData.selectedPlan}`);
   },[])
-
-  useEffect(() => {
-    return () => {
-      // && history.location.pathname === "any specific path")
-      if (history.action === "POP") {
-        history.replace('/pasoFinal');
-      }
-    };
-  }, [history])
 
   return (
     <Fragment>
