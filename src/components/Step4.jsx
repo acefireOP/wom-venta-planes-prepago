@@ -147,7 +147,8 @@ const Step4 = ({isOpenProcess, setIsOpenProcess, history}) => {
       // && history.location.pathname === "any specific path")
       if (history.action === "POP") {
         //history.replace('/pasoFinal');
-        window.location.replace('https://www.wom.cl/prepago')
+        window.location.href="https://www.wom.cl/prepago/";
+        history.push('/paso4');
       }
     };
   }, [history])
