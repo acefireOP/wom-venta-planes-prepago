@@ -6,7 +6,7 @@ import 'firebase/firestore'
 import { FormContext } from "../context/FormContext";
 import CheckboxOn from '../images/checkbox-on.svg'
 import document from '../assets/Terminos_y_Condiciones-Venta_de_planes.pdf'
-import ReactGA from 'react-ga'
+//import ReactGA from 'react-ga'
 
 const Conditions = styled.div`
   width: 100%;
@@ -117,7 +117,7 @@ const Step3Conditions = () => {
     const sendDate = new Date().toUTCString();
     let ventaPlanesRef = firebase.firestore().collection('venta-prepago-test');
     setSending(true);
-    ReactGA.set(formData);
+    //ReactGA.set(formData);
     ventaPlanesRef.add({
         creationDate:sendDate,
         selectedPlan:formData.selectedPlan,

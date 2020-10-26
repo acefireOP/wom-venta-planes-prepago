@@ -9,7 +9,7 @@ import Step1PhoneMessage from './Step1PhoneMessage'
 import TitleBlock from "./TitleBlock";
 import NextButton from "./NextButton";
 import { motion, AnimatePresence } from "framer-motion";
-import ReactGA from 'react-ga'
+//import ReactGA from 'react-ga'
 import IcoAlert from '../images/icon_alerta.svg'
 
 
@@ -131,7 +131,7 @@ const Step1 = ({location}) => {
 
   useEffect(()=>{
     setFormData({...formData,selectedPlan:parsed.portate,successFlow:false})
-    ReactGA.pageview(window.location.pathname + parsed.portate);
+    //ReactGA.pageview(window.location.pathname + parsed.portate);
   },[])
 
   if((formData.selectedPlan !== undefined && formData.selectedPlan === 'prepago')) {

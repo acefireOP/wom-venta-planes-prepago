@@ -19,7 +19,7 @@ import RequestPlanMob from './components/RequestPlanMob'
 import ModalProcess from './components/ModalProcess'
 import FrequentQuestions from './components/FrequentQuestions'
 import * as firebase from 'firebase'
-import ReactGA from 'react-ga';
+//import ReactGA from 'react-ga';
 import Step1PhoneMessage from './components/Step1PhoneMessage';
 
 const config = {
@@ -33,7 +33,7 @@ const config = {
   measurementId: "G-C2L75XKKLB"
 };
 
-ReactGA.initialize('UA-64277072-1')
+//ReactGA.initialize('UA-64277072-1')
 
 firebase.initializeApp(config)
 

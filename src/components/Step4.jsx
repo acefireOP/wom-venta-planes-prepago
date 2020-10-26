@@ -3,7 +3,7 @@ import { FormContext } from "../context/FormContext";
 import Step3Plan from './Step3Plan'
 import styled from 'styled-components'
 import IconEmail from '../images/formulario/icon_email.svg'
-import ReactGA from 'react-ga'
+//import ReactGA from 'react-ga'
 
 const FinalSummary = styled.div`
   width: 100%;
@@ -139,7 +139,7 @@ const Step4 = ({isOpenProcess, setIsOpenProcess, history}) => {
   useEffect(()=>{
     setFormData({...formData,successFlow:true})
     window.scrollTo(0, 0)
-    ReactGA.pageview(window.location.pathname+`/?portate=${formData.selectedPlan}`)
+    //ReactGA.pageview(window.location.pathname+`/?portate=${formData.selectedPlan}`)
   },[]);
 
   useEffect(() => {

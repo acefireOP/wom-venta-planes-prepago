@@ -5,7 +5,7 @@ import Step3Info from './Step3Info'
 import styled from 'styled-components'
 import Step3Conditions from './Step3Conditions'
 import TitleBlock from './TitleBlock'
-import ReactGA from 'react-ga'
+//import ReactGA from 'react-ga'
 
 const WrapperStep3 = styled.div`
   width: 100%;
@@ -26,7 +26,7 @@ const Step3 = () => {
   useEffect(()=>{
     setFormData({...formData,successFlow:false})
     window.scrollTo(0, 0)
-    ReactGA.pageview(window.location.pathname+`/?portate=${formData.selectedPlan}`);
+    //ReactGA.pageview(window.location.pathname+`/?portate=${formData.selectedPlan}`);
   },[])
 
   return (

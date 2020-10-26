@@ -8,7 +8,7 @@ import PlanType from './PlanType'
 import PrevButton from './PrevButton'
 import NextButton from './NextButton'
 import TitleBlock from "./TitleBlock";
-import ReactGA from 'react-ga'
+//import ReactGA from 'react-ga'
 
 
 const PlanTypeContainer = styled.div`
@@ -114,7 +114,7 @@ const Step2 = () => {
   useEffect(()=>{
     setFormData({...formData,successFlow:false})
     window.scrollTo(0, 0)
-    ReactGA.pageview(window.location.pathname+`/?portate=${formData.selectedPlan}`);
+    //ReactGA.pageview(window.location.pathname+`/?portate=${formData.selectedPlan}`);
     //setFormData({...formData,successFlow:false,dispatchRegion:'',dispatchComuna:''})
     //setValidationData({...validationData,dispatchRegion:false,dispatchComuna:false})
 
