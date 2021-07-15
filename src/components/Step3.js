@@ -27,6 +27,12 @@ const Step3 = () => {
     setFormData({...formData,successFlow:false})
     window.scrollTo(0, 0)
     //ReactGA.pageview(window.location.pathname+`/?portate=${formData.selectedPlan}`);
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      'event':'VirtualPageviewGeneral',
+      'virtualPageURL':'/portabilidad-prepago/solicitud-en-linea/paso3',
+      'virtualPageTitle':'Prepago - Solicitud en Línea - Paso 3',
+    });
   },[])
 
   return (

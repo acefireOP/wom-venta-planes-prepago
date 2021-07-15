@@ -152,6 +152,15 @@ const Step4 = ({isOpenProcess, setIsOpenProcess, history}) => {
       }
     };
   }, [history])
+
+  useEffect(() => {
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      'event':'VirtualPageviewGeneral',
+      'virtualPageURL':'/portabilidad-prepago/solicitud-en-linea/paso4',
+      'virtualPageTitle':'Prepago - Solicitud en Línea - Paso 4',
+    });
+  })
   
   return (
     <FinalSummary>

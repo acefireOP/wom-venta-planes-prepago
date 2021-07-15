@@ -132,7 +132,26 @@ const Step1 = ({location}) => {
   useEffect(()=>{
     setFormData({...formData,selectedPlan:parsed.portate,successFlow:false})
     //ReactGA.pageview(window.location.pathname + parsed.portate);
+
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      'event':'VirtualPageviewGeneral',
+      'virtualPageURL':'/portabilidad-prepago/solicitud-en-linea/paso1',
+      'virtualPageTitle':'Prepago - Solicitud en Línea - Paso 1',
+    });
   },[])
+
+  const dataLayerFn = () => {
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      'event': 'eventoGeneral',
+      'eventCategory': 'Prepago - Portabilidad',
+      'eventAction': 'Solicitud en Línea',
+      'eventLabel': 'Ir a Paso 2',
+      'page':'/portabilidad-prepago/solicitud-en-linea/paso1',
+      'pagename':'Prepago - Solicitud en Línea - Paso 1',
+    });
+  }
 
   if((formData.selectedPlan !== undefined && formData.selectedPlan === 'prepago')) {
     return (
@@ -185,6 +204,7 @@ const Step1 = ({location}) => {
               stepNum="2"
               stepTitle="Despacho"
               route="/paso2"
+              onclick={dataLayerFn}
               status={
                 formData.planType === "portabilidad"
                   ? validationData.ci &&

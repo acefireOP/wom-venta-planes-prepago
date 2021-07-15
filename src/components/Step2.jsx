@@ -117,8 +117,25 @@ const Step2 = () => {
     //ReactGA.pageview(window.location.pathname+`/?portate=${formData.selectedPlan}`);
     //setFormData({...formData,successFlow:false,dispatchRegion:'',dispatchComuna:''})
     //setValidationData({...validationData,dispatchRegion:false,dispatchComuna:false})
-
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      'event':'VirtualPageviewGeneral',
+      'virtualPageURL':'/portabilidad-prepago/solicitud-en-linea/paso2',
+      'virtualPageTitle':'Prepago - Solicitud en Línea - Paso 2',
+    });
   },[])
+
+  const dataLayerFn = () => {
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      'event': 'eventoGeneral',
+      'eventCategory': 'Prepago - Portabilidad',
+      'eventAction': 'Solicitud en Línea',
+      'eventLabel': 'Ir a Paso 3',
+      'page':'/portabilidad-prepago/solicitud-en-linea/paso2',
+      'pagename':'Prepago - Solicitud en Línea - Paso 2',
+    });
+  }
 
   const populateContract = () => {
     const region = formData.dispatchRegion
@@ -165,6 +182,7 @@ const Step2 = () => {
         <NextButton
           stepNum="3"
           stepTitle="Resumen Final"
+          onclick={dataLayerFn}
           route="/paso3"
           status={
             validationData.dispatchRegion &&

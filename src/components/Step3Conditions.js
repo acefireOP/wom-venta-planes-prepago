@@ -151,6 +151,17 @@ const Step3Conditions = () => {
         console.error('Error adding document: ', error);
     });
   }
+  const dataLayerFn = () => {
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      'event': 'eventoGeneral',
+      'eventCategory': 'Prepago - Portabilidad',
+      'eventAction': 'Solicitud en Línea',
+      'eventLabel': 'Ir a Paso 4',
+      'page':'/portabilidad-prepago/solicitud-en-linea/paso3',
+      'pagename':'Prepago - Solicitud en Línea - Paso 3',
+    });
+  }
   return (
     <Conditions>
       <div className="condition-check">
@@ -164,7 +175,10 @@ const Step3Conditions = () => {
       </div>
       <button 
         className={checked ? "btn-request" : "btn-request disabled"}
-        onClick={handleClick}
+        onClick={() => {
+          handleClick();
+          dataLayerFn();
+        }}
       >{sending ? 'Enviando...':'Ingresar solicitud'}</button>
     </Conditions>
   )
